@@ -1,0 +1,20 @@
+{
+  "name": "ming-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "build": "tsc index.ts",
+    "package": "npm run build && pkg index.js",
+    "clean": "rm -f index-win.exe index-macos index-linux"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "nodemon": "^2.0.4",
+    "pkg": "^4.4.9",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}

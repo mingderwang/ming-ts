@@ -8,7 +8,7 @@
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
     "build": "tsc index.ts",
     "package": "npm run build && pkg index.js",
-    "clean": "rm -f index-win.exe index-macos index-linux"
+    "clean": "rm -f index-win.exe index-macos index-linux ming-ts-v1.0.0.tgz"
   },
   "devDependencies": {
     "@types/node": "^14.0.23",

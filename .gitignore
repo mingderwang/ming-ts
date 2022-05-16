@@ -5,3 +5,4 @@ index-macos
 index-win.exe
 ming-ts-*.tgz
 dist/
+.parcel-cache/

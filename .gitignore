@@ -1,7 +1,7 @@
-node_modules
+node_modules/
 index.js
 index-linux
 index-macos
 index-win.exe
 ming-ts-*.tgz
-index.html
+dist/

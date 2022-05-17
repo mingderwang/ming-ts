@@ -4,14 +4,23 @@ A Typescript Template with a package build for Windows and Mac OS
 
 ## features
 
+* a typescript template
 * web app (html) using parcel
 * package your app for windows, linux and mac os
+* supports eslint
 
 ## run your app as a web app
 
 ```sh
 yarn
 yarn dev
+```
+
+## eslint
+
+```sh
+yarn
+yarn lint
 ```
 
 ## package your app

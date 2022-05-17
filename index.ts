@@ -4,7 +4,7 @@ interface Person {
     say(): string
 }
 
-let mike = {
+const mike = {
     age: 25, 
     name:"Mike", 
     say: function() { 

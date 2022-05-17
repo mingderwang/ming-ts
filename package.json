@@ -13,10 +13,14 @@
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
     "build": "tsc index.ts",
     "package": "npm run build && pkg index.js",
-    "clean": "rm -f index-win.exe index-macos index-linux ming-ts-v1.0.0.tgz"
+    "clean": "rm -f index-win.exe index-macos index-linux ming-ts-v1.0.0.tgz",
+    "lint": "eslint . --ext .ts"
   },
   "devDependencies": {
     "@types/node": "^17.0.33",
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0",
+    "eslint": "^8.15.0",
     "nodemon": "^2.0.4",
     "parcel": "^2.5.0",
     "pkg": "^5.6.0",
